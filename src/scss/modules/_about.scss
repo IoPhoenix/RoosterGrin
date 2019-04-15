@@ -1,0 +1,11 @@
+.about {
+    &__image {
+        padding: 0;
+        width: 100%;
+        background: url('/images/img-1.jpg');
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    } 
+}
