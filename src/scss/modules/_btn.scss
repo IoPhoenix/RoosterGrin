@@ -1,0 +1,22 @@
+.btn {
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .875rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+
+    @include atMedium {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    &--primary {
+        background-color: $primaryColor;
+        &:hover {
+            color: #fff;
+            background-color: $primaryColorDark;
+        }
+    }
+}

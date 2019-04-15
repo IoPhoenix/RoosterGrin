@@ -1,0 +1,15 @@
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: transparent;
+    height: 80px;
+    z-index: 9999;
+
+    svg {
+        width: 140px;
+        @include atMedium {
+            width: 240px;
+        }
+    }
+}

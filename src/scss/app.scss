@@ -1,1 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
+@import 'base/_variables';
+@import 'base/_global';
+@import 'base/_animations';
+@import 'base/_mixins';
+@import 'modules/header';
+@import 'modules/_hero';
+@import 'modules/_navbar';
+@import 'modules/_btn';
+@import 'modules/block';
